@@ -71,7 +71,7 @@ for TRAIN_SIZE_ID in range(4):
     micro = f1_score(np.argmax(y_tst, 1), np.argmax(y_tst_hat, 1), labels=labels, average='micro')
     cm = confusion_matrix(np.argmax(y_tst, 1), np.argmax(y_tst_hat, 1))
 
-    filename = '../result/CNN/WMPC_'+'CNN_'+'_'+str(TRAIN_SIZE)+'_'+str(REP_ID)+'_'
+    filename = '../result/CNN/WMPC_'+'CNN_'+str(TRAIN_SIZE)+'_'+str(REP_ID)+'_'
 
     with open(filename+'softmax.pickle', 'wb') as f:
         pickle.dump([y_trnval_hat, y_tst_hat], f)

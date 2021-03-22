@@ -9,6 +9,7 @@ Wafer map defect pattern classification using CNN
 ![](https://github.com/DMkelllog/Wafer_map_pattern_classification_CNN/blob/main/CNN%20flow.PNG?raw=true)
 
 * Input:    wafer map
+  * resized to 64x64
 * Output: predicted class
 * Model:  CNN (based on VGG16)
 
