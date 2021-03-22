@@ -6,7 +6,7 @@ Wafer map defect pattern classification using CNN
 
 ### Convolutional Neural Network
 
-![](C:\Users\user\OneDrive\CNN flow.PNG)
+![](https://github.com/DMkelllog/Wafer_map_pattern_classification_CNN/blob/main/CNN%20flow.PNG?raw=true)
 
 * Input:    wafer map
 * Output: predicted class
