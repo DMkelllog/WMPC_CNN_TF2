@@ -27,7 +27,7 @@ X_resize = np.array([resize(x,(DIM,DIM), preserve_range=True, anti_aliasing=Fals
 X_resize = X_resize.reshape(-1,DIM,DIM,1).astype(np.float16)
 
 # Save preprocessed data as pickle files
-with open('../data/X_'+str(DIM)+'.pickle', 'wb') as f:
+with open('../data/X_CNN_'+str(DIM)+'.pickle', 'wb') as f:
     pickle.dump(X_resize, f, protocol=4)
 with open('../data/y.pickle', 'wb') as f:
     pickle.dump(y, f, protocol=4)
